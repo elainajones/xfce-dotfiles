@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<channel name="xfce4-panel" version="1.0">
+  <property name="configver" type="int" value="2"/>
+  <property name="panels" type="array">
+    <value type="int" value="1"/>
+    <value type="int" value="2"/>
+    <property name="dark-mode" type="bool" value="true"/>
+    <property name="panel-1" type="empty">
+      <property name="position" type="string" value="p=6;x=0;y=0"/>
+      <property name="length" type="uint" value="100"/>
+      <property name="position-locked" type="bool" value="true"/>
+      <property name="icon-size" type="uint" value="0"/>
+      <property name="size" type="uint" value="28"/>
+      <property name="plugin-ids" type="array">
+        <value type="int" value="1"/>
+        <value type="int" value="23"/>
+        <value type="int" value="2"/>
+        <value type="int" value="19"/>
+        <value type="int" value="4"/>
+        <value type="int" value="5"/>
+        <value type="int" value="6"/>
+        <value type="int" value="8"/>
+        <value type="int" value="10"/>
+        <value type="int" value="11"/>
+        <value type="int" value="12"/>
+        <value type="int" value="13"/>
+        <value type="int" value="14"/>
+        <value type="int" value="24"/>
+      </property>
+    </property>
+    <property name="panel-2" type="empty">
+      <property name="autohide-behavior" type="uint" value="1"/>
+      <property name="position" type="string" value="p=8;x=960;y=1055"/>
+      <property name="length" type="uint" value="100"/>
+      <property name="position-locked" type="bool" value="true"/>
+      <property name="size" type="uint" value="48"/>
+      <property name="plugin-ids" type="array">
+        <value type="int" value="15"/>
+        <value type="int" value="16"/>
+        <value type="int" value="17"/>
+        <value type="int" value="20"/>
+        <value type="int" value="7"/>
+        <value type="int" value="21"/>
+        <value type="int" value="18"/>
+        <value type="int" value="3"/>
+        <value type="int" value="9"/>
+        <value type="int" value="26"/>
+        <value type="int" value="28"/>
+        <value type="int" value="27"/>
+      </property>
+    </property>
+  </property>
+  <property name="plugins" type="empty">
+    <property name="plugin-1" type="string" value="applicationsmenu"/>
+    <property name="plugin-2" type="string" value="tasklist">
+      <property name="grouping" type="uint" value="1"/>
+      <property name="show-handle" type="bool" value="false"/>
+      <property name="middle-click" type="uint" value="1"/>
+      <property name="flat-buttons" type="bool" value="true"/>
+      <property name="show-labels" type="bool" value="true"/>
+      <property name="show-wireframes" type="bool" value="false"/>
+    </property>
+    <property name="plugin-4" type="string" value="pager"/>
+    <property name="plugin-5" type="string" value="separator">
+      <property name="style" type="uint" value="0"/>
+    </property>
+    <property name="plugin-6" type="string" value="systray">
+      <property name="square-icons" type="bool" value="true"/>
+      <property name="known-legacy-items" type="array">
+        <value type="string" value="wi-fi network connection “the new frog zone” active: the new frog zone (63%)"/>
+        <value type="string" value="user authentication required for wi-fi network “unitawifi”…"/>
+        <value type="string" value="wi-fi network connection “always ready” active: always ready (38%)"/>
+        <value type="string" value="configuring wi-fi network connection “unitawifi”…"/>
+        <value type="string" value="configuring wi-fi network connection “always ready”…"/>
+        <value type="string" value="requesting an ethernet network address for “wired connection 1”…"/>
+        <value type="string" value="ethernet network connection “wired connection 1” active"/>
+        <value type="string" value="requesting a wi-fi network address for “always ready”…"/>
+        <value type="string" value="steam"/>
+        <value type="string" value="wi-fi network connection “always ready” active: always ready (65%)"/>
+        <value type="string" value="wi-fi network connection “always ready” active: always ready (79%)"/>
+        <value type="string" value="wi-fi network connection “always ready” active: always ready (80%)"/>
+        <value type="string" value="wi-fi network connection “always ready” active: always ready (82%)"/>
+        <value type="string" value="wi-fi network connection “always ready” active: always ready (85%)"/>
+        <value type="string" value="wi-fi network connection “always ready” active: always ready (83%)"/>
+        <value type="string" value="wi-fi network connection “always ready” active: always ready (67%)"/>
+        <value type="string" value="wi-fi network connection “always ready” active: always ready (66%)"/>
+        <value type="string" value="wi-fi network connection “always ready” active: always ready (75%)"/>
+        <value type="string" value="wi-fi network connection “always ready” active: always ready (74%)"/>
+        <value type="string" value="wi-fi network connection “always ready” active: always ready (73%)"/>
+        <value type="string" value="wi-fi network connection “always ready” active: always ready (71%)"/>
+        <value type="string" value="wi-fi network connection “always ready” active: always ready (76%)"/>
+        <value type="string" value="wi-fi network connection “always ready” active: always ready (81%)"/>
+        <value type="string" value="wi-fi network connection “always ready” active: always ready (72%)"/>
+        <value type="string" value="discord"/>
+        <value type="string" value="networkmanager applet"/>
+        <value type="string" value="wi-fi network connection “always ready 3” active: always ready (76%)"/>
+        <value type="string" value="wi-fi network connection “always ready 3” active: always ready (75%)"/>
+        <value type="string" value="wi-fi network connection “always ready 3” active: always ready (69%)"/>
+        <value type="string" value="wi-fi network connection “always ready 3” active: always ready (79%)"/>
+        <value type="string" value="wi-fi network connection “always ready 3” active: always ready (73%)"/>
+        <value type="string" value="tutanota-desktop"/>
+        <value type="string" value="wi-fi network connection “always ready 3” active: always ready (70%)"/>
+        <value type="string" value="wi-fi network connection “always ready 3” active: always ready (71%)"/>
+        <value type="string" value="wi-fi network connection “always ready 3” active: always ready (72%)"/>
+        <value type="string" value="wi-fi network connection “always ready 3” active: always ready (77%)"/>
+        <value type="string" value="wi-fi network connection “always ready 3” active: always ready (66%)"/>
+        <value type="string" value="wi-fi network connection “always ready 3” active: always ready (67%)"/>
+        <value type="string" value="wi-fi network connection “always ready 3” active: always ready (74%)"/>
+        <value type="string" value="wi-fi network connection “always ready 3” active: always ready (68%)"/>
+        <value type="string" value="wi-fi network connection “always ready 3” active: always ready (78%)"/>
+        <value type="string" value="configuring wi-fi network connection “always ready 2”…"/>
+        <value type="string" value="thunar"/>
+        <value type="string" value="wi-fi network connection “always ready 2” active: always ready (71%)"/>
+        <value type="string" value="no network connection"/>
+        <value type="string" value="wi-fi network connection “always ready” active: always ready (68%)"/>
+        <value type="string" value="wi-fi network connection “always ready” active: always ready (78%)"/>
+        <value type="string" value="wi-fi network connection “always ready” active: always ready (77%)"/>
+        <value type="string" value="wi-fi network connection “always ready” active: always ready (70%)"/>
+        <value type="string" value="wi-fi network connection “always ready” active: always ready (69%)"/>
+        <value type="string" value="networking disabled"/>
+      </property>
+      <property name="known-items" type="array">
+        <value type="string" value="org.nicotine_plus.Nicotine"/>
+        <value type="string" value="vrmonitor"/>
+        <value type="string" value="chrome_status_icon_1"/>
+        <value type="string" value="steam"/>
+        <value type="string" value="vlc"/>
+      </property>
+    </property>
+    <property name="plugin-8" type="string" value="pulseaudio">
+      <property name="enable-keyboard-shortcuts" type="bool" value="true"/>
+      <property name="show-notifications" type="bool" value="true"/>
+      <property name="mpris-players" type="string" value="firefox.instance10356;firefox.instance10477;firefox.instance10775;firefox.instance10968;firefox.instance10982;firefox.instance11226;firefox.instance11483;firefox.instance11510;firefox.instance11761;firefox.instance11846;firefox.instance11854;firefox.instance11996;firefox.instance12060;firefox.instance12065;firefox.instance12194;firefox.instance1228;firefox.instance12298;firefox.instance12522;firefox.instance12697;firefox.instance12873;firefox.instance13870;firefox.instance13909;firefox.instance14116;firefox.instance14513;firefox.instance14925;firefox.instance1499;firefox.instance15080;firefox.instance15454;firefox.instance15780;firefox.instance1670;firefox.instance17270;firefox.instance17387;firefox.instance17419;firefox.instance18042;firefox.instance18327;firefox.instance18480;firefox.instance18575;firefox.instance1877;firefox.instance18913;firefox.instance19788;firefox.instance19950;firefox.instance20264;firefox.instance21538;firefox.instance22187;firefox.instance23643;firefox.instance23720;firefox.instance24016;firefox.instance24254;firefox.instance24541;firefox.instance25103;firefox.instance25371;firefox.instance25858;firefox.instance25963;firefox.instance2607;firefox.instance26107;firefox.instance26978;firefox.instance27578;firefox.instance27706;firefox.instance28158;firefox.instance28349;firefox.instance2838;firefox.instance28594;firefox.instance30237;firefox.instance30296;firefox.instance30313;firefox.instance30507;firefox.instance30884;firefox.instance31005;firefox.instance31612;firefox.instance31891;firefox.instance32206;firefox.instance32319;firefox.instance3899;firefox.instance3941;firefox.instance3952;firefox.instance3960;firefox.instance3977;firefox.instance3983;firefox.instance3996;firefox.instance4001;firefox.instance4016;firefox.instance4030;firefox.instance4055;firefox.instance4061;firefox.instance4065;firefox.instance4066;firefox.instance4069;firefox.instance4079;firefox.instance4090;firefox.instance4091;firefox.instance4103;firefox.instance4117;firefox.instance4120;firefox.instance4126;firefox.instance4133;firefox.instance4148;firefox.instance4161;firefox.instance4165;firefox.instance4168;firefox.instance4173;firefox.instance4177;firefox.instance4187;firefox.instance4193;firefox.instance4200;firefox.instance4201;firefox.instance4205;firefox.instance4208;firefox.instance4214;firefox.instance4216;firefox.instance4219;firefox.instance4231;firefox.instance4233;firefox.instance4249;firefox.instance4270;firefox.instance4277;firefox.instance4301;firefox.instance4310;firefox.instance4311;firefox.instance4365;firefox.instance4374;firefox.instance4396;firefox.instance4397;firefox.instance4405;firefox.instance4408;firefox.instance4422;firefox.instance4426;firefox.instance4450;firefox.instance4464;firefox.instance4480;firefox.instance4521;firefox.instance4531;firefox.instance4542;firefox.instance4552;firefox.instance4579;firefox.instance4595;firefox.instance4608;firefox.instance4641;firefox.instance4662;firefox.instance4683;firefox.instance4684;firefox.instance4696;firefox.instance4703;firefox.instance4710;firefox.instance4752;firefox.instance4755;firefox.instance4831;firefox.instance4872;firefox.instance4894;firefox.instance4898;firefox.instance4916;firefox.instance4963;firefox.instance4979;firefox.instance5003;firefox.instance5006;firefox.instance5072;firefox.instance5143;firefox.instance5164;firefox.instance5172;firefox.instance5203;firefox.instance5210;firefox.instance5214;firefox.instance5250;firefox.instance5251;firefox.instance5295;firefox.instance5309;firefox.instance5313;firefox.instance5334;firefox.instance5377;firefox.instance5378;firefox.instance5381;firefox.instance5433;firefox.instance550;firefox.instance5506;firefox.instance5537;firefox.instance5621;firefox.instance5650;firefox.instance5741;firefox.instance5797;firefox.instance5840;firefox.instance5848;firefox.instance5933;firefox.instance6068;firefox.instance6110;firefox.instance6239;firefox.instance6245;firefox.instance6287;firefox.instance6299;firefox.instance6494;firefox.instance6506;firefox.instance6604;firefox.instance6712;firefox.instance6740;firefox.instance6795;firefox.instance6985;firefox.instance7009;firefox.instance7068;firefox.instance7225;firefox.instance7294;firefox.instance7366;firefox.instance7498;firefox.instance7749;firefox.instance7820;firefox.instance7906;firefox.instance8000;firefox.instance8106;firefox.instance8119;firefox.instance8420;firefox.instance8440;firefox.instance8453;firefox.instance8551;firefox.instance8556;firefox.instance8599;firefox.instance8678;firefox.instance8759;firefox.instance8816;firefox.instance8889;firefox.instance9018;firefox.instance9124;firefox.instance9188;firefox.instance9465;firefox.instance9512;firefox.instance9585;firefox.instance9855;vlc"/>
+      <property name="known-players" type="string" value="firefox;Mozilla Firefox;VLC media player"/>
+    </property>
+    <property name="plugin-10" type="string" value="notification-plugin"/>
+    <property name="plugin-11" type="string" value="separator">
+      <property name="style" type="uint" value="0"/>
+    </property>
+    <property name="plugin-12" type="string" value="clock">
+      <property name="digital-layout" type="uint" value="3"/>
+      <property name="digital-time-font" type="string" value="DejaVu Sans Mono 10"/>
+      <property name="digital-time-format" type="string" value="%H:%M:%S"/>
+      <property name="mode" type="uint" value="2"/>
+    </property>
+    <property name="plugin-13" type="string" value="separator">
+      <property name="style" type="uint" value="0"/>
+    </property>
+    <property name="plugin-14" type="string" value="actions">
+      <property name="items" type="array">
+        <value type="string" value="+lock-screen"/>
+        <value type="string" value="-switch-user"/>
+        <value type="string" value="+separator"/>
+        <value type="string" value="-suspend"/>
+        <value type="string" value="-hibernate"/>
+        <value type="string" value="-hybrid-sleep"/>
+        <value type="string" value="-separator"/>
+        <value type="string" value="+shutdown"/>
+        <value type="string" value="+restart"/>
+        <value type="string" value="+separator"/>
+        <value type="string" value="-logout"/>
+        <value type="string" value="+logout-dialog"/>
+      </property>
+      <property name="button-title" type="uint" value="1"/>
+      <property name="appearance" type="uint" value="1"/>
+    </property>
+    <property name="plugin-15" type="string" value="showdesktop"/>
+    <property name="plugin-16" type="string" value="separator"/>
+    <property name="plugin-17" type="string" value="launcher">
+      <property name="items" type="array">
+        <value type="string" value="16665593511.desktop"/>
+      </property>
+    </property>
+    <property name="plugin-18" type="string" value="launcher">
+      <property name="items" type="array">
+        <value type="string" value="16665593512.desktop"/>
+      </property>
+    </property>
+    <property name="plugin-20" type="string" value="launcher">
+      <property name="items" type="array">
+        <value type="string" value="16665593514.desktop"/>
+      </property>
+    </property>
+    <property name="plugin-21" type="string" value="separator"/>
+    <property name="plugin-7" type="string" value="launcher">
+      <property name="items" type="array">
+        <value type="string" value="16673367851.desktop"/>
+      </property>
+    </property>
+    <property name="plugin-19" type="string" value="separator">
+      <property name="expand" type="bool" value="true"/>
+      <property name="style" type="uint" value="0"/>
+    </property>
+    <property name="plugin-23" type="string" value="separator">
+      <property name="style" type="uint" value="2"/>
+    </property>
+    <property name="plugin-24" type="string" value="separator">
+      <property name="style" type="uint" value="0"/>
+    </property>
+    <property name="plugin-26" type="string" value="separator">
+      <property name="style" type="uint" value="0"/>
+      <property name="expand" type="bool" value="true"/>
+    </property>
+    <property name="plugin-27" type="string" value="separator">
+      <property name="expand" type="bool" value="false"/>
+      <property name="style" type="uint" value="0"/>
+    </property>
+    <property name="plugin-28" type="string" value="systemload">
+      <property name="cpu" type="empty">
+        <property name="enabled" type="bool" value="true"/>
+      </property>
+    </property>
+    <property name="plugin-3" type="string" value="launcher">
+      <property name="items" type="array">
+        <value type="string" value="16698628121.desktop"/>
+      </property>
+    </property>
+    <property name="plugin-9" type="string" value="launcher">
+      <property name="items" type="array">
+        <value type="string" value="16828854791.desktop"/>
+      </property>
+    </property>
+  </property>
+</channel>
